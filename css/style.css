@@ -1,4 +1,47 @@
 body {
+    background: #f2f2f2;
+    color: #222;
+    line-height: 1.6;
+}
 
-    background-color: aqua;
+header {
+    background: #a4eaff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #3923ff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+nav ul li a:hover {
+    color: #3923ff;
+}
+
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 18px;
+    background: #a4eaff;
+    color: white;
+    border-top: 4px solid #3923ff;
 }
